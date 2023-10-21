@@ -1,0 +1,7 @@
+<h1>アメリカ<h1>
+<% @posts.each do |t| %>
+    <% if t.category == "america" %>  
+    <p>内容:<%= t.content %></p>
+    <% end %>
+
+<% end %>
